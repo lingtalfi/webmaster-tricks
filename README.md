@@ -63,3 +63,16 @@ Read the [full trick](https://github.com/lingtalfi/webmaster-tricks/blob/master/
 here.
     
     
+### Navigate the command line like an editor
+    
+This is also a huge time saver if you spend a lot of time typing commands in a shell.<br>
+Unfortunately, this tip is only for mac users.<br>
+
+Basically it allows you to navigate the command line intuitively, like you do editing in an IDE for instance, 
+rather than using weird shortcuts. For instance, to move to the previous word, simply type alt+left (so much time
+saved in the long run).
+
+
+Read the [full trick here](https://github.com/lingtalfi/mac-terminal-shortcuts)
+
+    
