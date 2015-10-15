@@ -52,3 +52,6 @@ if (
     QuickLog::inst()->addEntry(date('Y-m-d H:i:s') . '::' . $_SERVER['REQUEST_URI'], 'searches');
 }
 ```
+
+
+You can also send you an email when the log is rotated, more about this in the [QuickLog docs](https://github.com/lingtalfi/QuickLog)
