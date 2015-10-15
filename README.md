@@ -43,6 +43,8 @@ Tricks
 
 ### ssh config trick 
 
+2015-10-14
+
 Not really a trick, just a native feature of ssh, but the net effect is that it reduces a ssh command like this:
     
 ```bash
@@ -65,6 +67,8 @@ here.
     
 ### Navigate the command line like an editor
     
+2015-10-14
+    
 This is also a huge time saver if you spend a lot of time typing commands in a shell.<br>
 Unfortunately, this tip is only for mac users.<br>
 
@@ -76,3 +80,17 @@ saved in the long run).
 Read the [full trick here](https://github.com/lingtalfi/mac-terminal-shortcuts)
 
     
+    
+### Pick'n'treat
+
+2015-10-15
+    
+This trick is about quickly grabbing information from the user, and treat them in a second phase.
+Therefore, the user feels (almost) no performance penalty, and you have the data that you want for your later analysis.
+ 
+
+Read the [full trick here](https://github.com/lingtalfi/webmaster-tricks/blob/master/tricks/pick-n-treat.md)
+
+    
+    
+   
