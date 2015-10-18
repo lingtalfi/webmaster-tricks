@@ -93,4 +93,17 @@ Read the [full trick here](https://github.com/lingtalfi/webmaster-tricks/blob/ma
 
     
     
+### Handle Sitemaps
+
+2015-10-18
+    
+Handling sitemap in a php application is a common task.
+There are plenty of scripts on the web.
+Here are the two that I use:
+     
+- [Sitemap Builder](https://github.com/lingtalfi/SitemapBuilderBox): create simple sitemaps with php oop (handles google video extension and more)
+- [Sitemap Slicer](https://github.com/lingtalfi/SitemapSlicer): synchronize your sitemaps from your database (handles sitemap index)
+
+    
+    
    
