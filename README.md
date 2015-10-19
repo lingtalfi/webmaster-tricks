@@ -39,7 +39,15 @@ So now you should know whether or not this document might be worth reading.
 
 
 Tricks
------------
+================
+
+
+Productivity Tricks
+-------------------------
+
+This section contains tricks about being more efficient in typing commands, and about you being generally
+faster, or better organized.
+
 
 ### ssh config trick 
 
@@ -80,6 +88,11 @@ saved in the long run).
 Read the [full trick here](https://github.com/lingtalfi/mac-terminal-shortcuts)
 
     
+Get Statistics
+----------------------
+    
+This section contains tricks related to statistics.    
+    
     
 ### Pick'n'treat
 
@@ -93,6 +106,13 @@ Read the [full trick here](https://github.com/lingtalfi/webmaster-tricks/blob/ma
 
     
     
+    
+Application and website
+----------------------------
+    
+This section contains tricks related to one's application or/and website.
+    
+    
 ### Handle Sitemaps
 
 2015-10-18
@@ -103,6 +123,32 @@ Here are the two that I use:
      
 - [Sitemap Builder](https://github.com/lingtalfi/SitemapBuilderBox): create simple sitemaps with php oop (handles google video extension and more)
 - [Sitemap Slicer](https://github.com/lingtalfi/SitemapSlicer): synchronize your sitemaps from your database (handles sitemap index)
+
+    
+        
+    
+### Php Error Log
+
+2015-10-19
+    
+    
+In php, you can use the ini_set('error_log', '/path/to/myapp/logs/applog.txt') directive to control where
+your php errors are going. But now you have two problems:
+
+- how do you rotate the applog.txt file?
+- how do you send yourself an email whenever the applog.txt file is updated?
+ 
+There are two lightweight bash scripts which are perfect for this situation.
+
+- [log rotator](https://github.com/lingtalfi/logrotator): rotates any file
+- [log change notify](https://github.com/lingtalfi/log-change-notify): a script that allows us to execute hooks
+    whenever the log file is updated. Hooks can be written in php.
+
+Both scripts are based on cron.
+My cron setup is so that it launches the log rotator script every day, and the log change notify script every minute.
+
+
+
 
     
     
