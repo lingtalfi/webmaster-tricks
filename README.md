@@ -88,7 +88,7 @@ saved in the long run).
 Read the [full trick here](https://github.com/lingtalfi/mac-terminal-shortcuts)
 
     
-Get Statistics
+Statistics Tricks
 ----------------------
     
 This section contains tricks related to statistics.    
@@ -107,7 +107,7 @@ Read the [full trick here](https://github.com/lingtalfi/webmaster-tricks/blob/ma
     
     
     
-Application and website
+Front End Application Tricks
 ----------------------------
     
 This section contains tricks related to one's application or/and website.
@@ -148,8 +148,38 @@ Both scripts are based on cron.
 My cron setup is so that it launches the log rotator script every day, and the log change notify script every minute.
 
 
+### Resizing images, Renaming files
+
+2015-10-22
+
+From time to time, webmasters need to resize an image.
+Maybe the fastest way to do so is to use the image magick commands directly.
+However, one may not always remember the syntax.
+An alternative to this is to use the webWizard's [batchFileTreatment tasks](https://github.com/lingtalfi/webmaster-wizard/blob/master/doc/tasks-description.md#batch-file-tasks-12).
+Once setup, this tool works fine not only for resizing a directory of images, but also for renaming files.
+
+The kool thing about the [webwizard](https://github.com/lingtalfi/webmaster-wizard) tool is that it's extensible, and if you start to use it, 
+it boosts your productivity in different areas of your work.
 
 
+
+Local Remote Transfer Tricks
+--------------------------------
     
+### Quickly transfer local database to remote server and vice versa
+
+2015-10-22
+
+If you own a remote webserver with some web applications on it, and if at least one of your application
+uses a database, then at some point you need to think how you will sync your local app with your remote app.
+
+If you don't have a workflow for that, or if you're just curious, you might be interested by the 
+web wizard's [database save apply tasks](https://github.com/lingtalfi/webmaster-wizard/blob/master/doc/tasks-description.md#database-tasks-save-apply-11).
+
+They basically allow you to execute any basic backup operation in a matter of seconds (as it is always the case with command line tools).
+So, you can backup your local database, mirror it into your remote server, and vice versa, and more.
+
+The [webwizard](https://github.com/lingtalfi/webmaster-wizard) tool has even more power to offer, but the database tasks are one of the main reason
+it was created in the first place.
     
    
