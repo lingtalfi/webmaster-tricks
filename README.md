@@ -148,6 +148,28 @@ Both scripts are based on cron.
 My cron setup is so that it launches the log rotator script every day, and the log change notify script every minute.
 
 
+
+#### Writing to log file 
+
+2015-10-25
+
+Now if you are more concerned with how to write to a log file, there are two classes that might help you:
+
+- [ApplicationLog](https://github.com/lingtalfi/ApplicationLog): a simple class that logs all your application log messages to one file
+- [QuickLog](https://github.com/lingtalfi/QuickLog): a simple class like ApplicationLog, but you can write different messages on different files
+
+Actually, I've been using both of them together, and they play nice together.
+I use ApplicationLog to collect every log message from my application, plus php's error_log.
+Therefore, all my application logs go to ONE and one only location, which is very appreciable.
+
+On the other hand, sometimes I need to collect data from the users, for instance what expressions they typed in 
+a search engine on the website. In this case, I find that the QuickLog is more appropriated, because I can create a search.txt
+log file on the fly and put all the users searches in it, without messing with my application log.
+
+
+
+
+
 ### Resizing images, Renaming files
 
 2015-10-22
