@@ -205,3 +205,22 @@ The [webwizard](https://github.com/lingtalfi/webmaster-wizard) tool has even mor
 it was created in the first place.
     
    
+   
+   
+Bash tricks
+---------------
+   
+### How to make any command system wide available
+
+2015-10-31   
+
+Rather than typing the full path to a command, you can simply type its name, which is much easier to remember.
+
+Everybody should know that.
+But anyway, you can find the explanation on how to do that [here](https://github.com/lingtalfi/webmaster-tricks/blob/master/tricks/bash.make-command-system-wide-available.md).
+
+
+
+
+
+
