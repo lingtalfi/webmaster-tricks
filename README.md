@@ -221,6 +221,36 @@ But anyway, you can find the explanation on how to do that [here](https://github
 
 
 
+Start an http server
+------------------------
+
+### Using python
+
+2016-07-24
+
+Don't need to create an apache virtual host anymore, the simplest way to have an up and running server might be using python.
+
+Python 3
+```bash
+python -m http.server
+```
+
+Python 2
+```bash
+python -m SimpleHTTPServer
+```
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
